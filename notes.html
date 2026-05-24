@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Notes - Biology Online Classes</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9fafb;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-teal-600">Biology Online Classes by Shuborno</a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="index.html#courses" class="text-gray-600 hover:text-teal-600 font-medium transition-colors duration-200">Courses</a>
+                <a href="index.html#features" class="text-gray-600 hover:text-teal-600 font-medium transition-colors duration-200">Features</a>
+                <a href="#" class="text-gray-600 font-medium cursor-default">Notes</a>
+                <a href="contact.html" class="bg-teal-600 text-white px-5 py-2 rounded-full font-semibold hover:bg-teal-700 transition-colors duration-200 shadow-md">
+                    Contact Us
+                </a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="menu-button" class="text-gray-600 focus:outline-none">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+            <a href="index.html#courses" class="block px-4 py-3 text-gray-600 hover:bg-gray-100 transition-colors duration-200">Courses</a>
+            <a href="index.html#features" class="block px-4 py-3 text-gray-600 hover:bg-gray-100 transition-colors duration-200">Features</a>
+            <a href="#" class="block px-4 py-3 text-gray-600 hover:bg-gray-100 transition-colors duration-200 cursor-default">Notes</a>
+            <a href="contact.html" class="w-full text-left block px-4 py-3 bg-teal-500 text-white font-semibold hover:bg-teal-600 transition-colors duration-200">
+                Contact Us
+            </a>
+        </div>
+    </header>
+
+    <main class="py-16 md:py-24">
+        <section class="container mx-auto px-4 max-w-4xl text-center">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Class Notes</h1>
+            <p class="text-lg text-gray-600 mb-8 mx-auto">This is where you can find all of the class notes and study materials. Check back for updates!</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+                <!-- Official Student Book Link -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-teal-500">
+                    <h2 class="text-xl font-semibold mb-2">Official Student Book</h2>
+                    <p class="text-gray-600">
+                        Access the official Pearson Edexcel International GCSE (9-1) Biology Student Book here:
+                        <a href="https://share.google/1PCLBFlCkYYncfe1k" class="text-teal-600 hover:underline font-medium transition-colors duration-200" target="_blank">Download Student Book</a>
+                    </p>
+                </div>
+                 <!-- Official Specifications Document -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-teal-500">
+                    <h2 class="text-xl font-semibold mb-2">Official Specifications</h2>
+                    <p class="text-gray-600">
+                        View the official Pearson Edexcel International GCSE (9-1) Biology Specifications Document here:
+                        <a href="https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Biology/2017/specification-and-sample-assessments/international-gcse-biology-2017-specification1.pdf" class="text-teal-600 hover:underline font-medium transition-colors duration-200" target="_blank">Download Specifications</a>
+                    </p>
+                </div>
+                <!-- Highlighted Helpful Notes and Resources -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-indigo-500 ring ring-indigo-300">
+                    <h2 class="text-xl font-semibold mb-2">Helpful Notes & Resources (Save My Exams)</h2>
+                    <p class="text-gray-600">
+                        Find extra revision notes and past papers from Save My Exams here:
+                        <a href="https://www.savemyexams.com/igcse/biology/edexcel/19/revision-notes/" class="text-indigo-600 hover:underline font-medium transition-colors duration-200" target="_blank">View Resources</a>
+                    </p>
+                </div>
+                <!-- Highlighted Helpful Notes and Resources from PMT -->
+                <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-indigo-500 ring ring-indigo-300">
+                    <h2 class="text-xl font-semibold mb-2">More Revision Resources (PMT)</h2>
+                    <p class="text-gray-600">
+                        Find additional helpful notes and past papers from PMT here:
+                        <a href="https://www.physicsandmathstutor.com/biology-revision/igcse-edexcel/" class="text-indigo-600 hover:underline font-medium transition-colors duration-200" target="_blank">View Resources</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-10">
+        <div class="container mx-auto px-4 text-center md:flex md:justify-between md:items-center">
+            <p>&copy; 2025 Faizul Karim Jarif. All rights reserved.</p>
+            <div class="mt-4 md:mt-0 space-x-4">
+                <a href="#" class="hover:text-white transition-colors duration-200">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition-colors duration-200">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuButton = document.getElementById('menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            // Toggle mobile menu visibility
+            menuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+</html>

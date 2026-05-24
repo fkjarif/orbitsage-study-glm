@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy – OrbitSage/Study</title>
+    <meta name="description" content="Privacy Policy for OrbitSage/Study" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { background: #0A0A0F; color: #E4E4E7; font-family: 'Inter', system-ui, sans-serif; line-height: 1.7; }
+      .container { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+      h1 { font-size: 2rem; font-weight: 700; margin-bottom: 1.5rem; color: #fff; }
+      h2 { font-size: 1.25rem; font-weight: 600; margin-top: 2rem; margin-bottom: 0.75rem; color: #C7C7CC; }
+      p { margin-bottom: 1rem; color: #A1A1AA; }
+      a { color: #818CF8; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .back-link { display: inline-flex; align-items: center; gap: 0.5rem; margin-bottom: 2rem; color: #6366F1; font-weight: 500; }
+      .back-link:hover { color: #818CF8; }
+      .footer { text-align: center; padding: 3rem 1rem 2rem; color: #71717A; font-size: 0.875rem; border-top: 1px solid #27272A; margin-top: 3rem; }
+      .footer a { color: #A1A1AA; margin: 0 0.5rem; }
+      ul { padding-left: 1.5rem; margin-bottom: 1rem; color: #A1A1AA; }
+      li { margin-bottom: 0.5rem; }
+      .highlight { background: #1E1E2E; padding: 1rem; border-radius: 0.5rem; margin: 1rem 0; border-left: 3px solid #6366F1; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="/" class="back-link">← Back to OrbitSage/Study</a>
+      <h1>Privacy Policy</h1>
+      <p><strong>Last updated:</strong> January 2026</p>
+
+      <h2>1. Overview</h2>
+      <p>OrbitSage/Study ("the Service") is designed with privacy as a core principle. This Privacy Policy explains how we handle — or rather, <strong>don't handle</strong> — your data.</p>
+
+      <div class="highlight">
+        <strong style="color: #E4E4E7;">TL;DR:</strong> We don't collect, store, or transmit any of your personal data to our servers. Everything stays in your browser.
+      </div>
+
+      <h2>2. Data Collection & Storage</h2>
+      <ul>
+        <li><strong>API Key:</strong> Your OpenRouter API key is stored exclusively in your browser's IndexedDB (via Dexie.js). It is never sent to any server other than OpenRouter's API endpoint.</li>
+        <li><strong>Chat History:</strong> All conversation messages are stored locally in your browser's IndexedDB. They are never transmitted to any server other than OpenRouter for AI processing.</li>
+        <li><strong>Images:</strong> Uploaded images are compressed client-side and sent directly to OpenRouter's API as base64 data. They are <strong>not stored permanently</strong> anywhere — not on our servers, not in your browser after the session.</li>
+      </ul>
+
+      <h2>3. Data Transmission</h2>
+      <p>The only external service your data is sent to is <strong>OpenRouter</strong> (<a href="https://openrouter.ai" target="_blank" rel="noopener">openrouter.ai</a>). Specifically:</p>
+      <ul>
+        <li>Your API key is sent as an authorization header to OpenRouter's API.</li>
+        <li>Your chat messages (including any images) are sent to OpenRouter for AI model processing.</li>
+        <li>OpenRouter's own <a href="https://openrouter.ai/privacy" target="_blank" rel="noopener">Privacy Policy</a> governs how they handle your data.</li>
+      </ul>
+      <p><strong>No data is sent to any other server, including our own.</strong> This application has no backend.</p>
+
+      <h2>4. Cookies & Tracking</h2>
+      <p>We do <strong>not</strong> use cookies, web beacons, analytics trackers, or any third-party tracking technologies. The only browser storage used is IndexedDB for your API key and chat history, and localStorage for remembering your acknowledgment of the security warning.</p>
+
+      <h2>5. Third-Party Services</h2>
+      <p>The Service communicates with:</p>
+      <ul>
+        <li><strong>OpenRouter API</strong> — for AI model inference. See <a href="https://openrouter.ai/privacy" target="_blank" rel="noopener">OpenRouter's Privacy Policy</a>.</li>
+        <li><strong>Google Fonts</strong> — for loading web fonts (Inter, JetBrains Mono). Google may collect IP addresses and other data per their <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>.</li>
+      </ul>
+
+      <h2>6. Data Security</h2>
+      <p>While we take reasonable measures to ensure the security of data within the browser:</p>
+      <ul>
+        <li>Data stored in IndexedDB is accessible to anyone with physical or remote access to your device.</li>
+        <li>Malicious browser extensions could potentially access data stored in your browser.</li>
+        <li>We recommend setting a spending limit on your OpenRouter account to mitigate potential losses from key compromise.</li>
+      </ul>
+
+      <h2>7. Data Deletion</h2>
+      <p>You can delete all locally stored data at any time by:</p>
+      <ul>
+        <li>Using the "Reset Key" feature within the Service.</li>
+        <li>Clearing your browser's site data (IndexedDB, localStorage) for this domain.</li>
+      </ul>
+
+      <h2>8. Children's Privacy</h2>
+      <p>The Service is not directed at children under 13 years of age. We do not knowingly collect personal information from children under 13.</p>
+
+      <h2>9. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. Changes will be reflected by updating the "Last updated" date above.</p>
+
+      <h2>10. Contact</h2>
+      <p>For privacy-related inquiries, please reach out through the Service's website.</p>
+
+      <div class="footer">
+        <p>© 2026 Faizul Karim Jarif &nbsp;·&nbsp; <a href="/terms.html">Terms</a> &nbsp;·&nbsp; <a href="/privacy.html">Privacy</a></p>
+        <p style="margin-top: 0.5rem;">Made with ⚛️ and 🧠</p>
+      </div>
+    </div>
+  </body>
+</html>
